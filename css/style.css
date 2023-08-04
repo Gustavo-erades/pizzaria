@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "fonte torta";
+    src: url("../fontes/fonte2/COCKB___.TTF");
+}
+.navbar-brand span{
+    font-family: "fonte torta";
+    font-size: 3em;
+    font-weight: bold;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active{
+    outline: none;
+}
+header nav{
+    background-color: #f0ad4e;
+}
+section#home h1{
+    font-weight: bold;
+}
+section#home p{
+    font-size: 1.5em;
+}
+section#home{
+    background-image: url(../imagens/fundo-home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+section.caixa-conteudo{
+    background-color: 	#f0ad4e;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
