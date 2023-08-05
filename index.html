@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- fonte awesome -->
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imagens/iconePizza.png" type="image/x-icon">
     <title>Pizzaria</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container">
                 <a href="#" class="navbar-brand">
                     <span class="text-light">Pizza boa demaizi</span>
@@ -28,16 +29,20 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="" class="nav-link">Cardápio</a>
+                            <a href="#quemSomos" class="nav-link">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Pedido</a>
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Cardápio</a>
+                            <div class="dropdown-menu dropdown-light">
+                                <a href="#doce" class="dropdown-item">Pizza doce</a>
+                                <a href="#salgada" class="dropdown-item">Pizza salgada</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Endereço</a>
+                            <a href="#promocao" class="nav-link">Promoções</a>
                         </li>
                     </ul>
                 </div>
@@ -59,46 +64,285 @@
         </div>
     </section>
     <!--endereço e contato-->
-    <section class="caixa-conteudo">
+    <section class="caixa-conteudo" id="contato">
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin-top: 10px;margin-bottom:10px">
                 <div class="col-md-8">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.7601700690566!2d-48.065340824928924!3d-15.816595023502053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a336b2c680609%3A0xa075223e7922148e!2sPizzaria%20Nona%20Pinna!5e0!3m2!1spt-BR!2sbr!4v1691177858253!5m2!1spt-BR!2sbr" 
                      width="600px" height="300px"  style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="align-self-center">
                         <p class="lead"><i class="fa-solid fa-location-dot fa-lg"></i><strong> St. D Norte QND 1 Lote 08</strong>  - Taguatinga, Brasília - DF, 72120-010</p>
-                        <p><i class="fa-brands fa-whatsapp fa-2xl"></i> +55 (61) 99999-9999</p>
-                        <p><i class="fa-brands fa-instagram fa-2xl"></i> +55 (61) 99999-9999</p>
-                        <a href="" class="btn btn-dark">Fazer pedido</a>
+                        <p><i class="fa-solid fa-phone-volume fa-xl"></i> +55 (61) 99999-9999</p>
+                        <p><i class="fa-brands fa-instagram fa-xl"></i> @pizzaLegalDemaizi</p>
+                        <p><i class="fa-brands fa-facebook fa-xl"></i> Pizzararia do Balaco-Baco</p>
+                        <p>
+                           <i class="fa-regular fa-clock fa-xl"></i> Funcionamento de segunda a sexta das 15:00 às 22:00 e sábados das 15:00 às 20:00 
+                        </p>
+                        <a href="" class="btn btn-success"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- cardápio -->
+    <!-- Quem Somos -->
+    <section class="caixa-conteudo" id="quemSomos">
+        <div class="container">
+            <h3 class="display-4 mb-0">Nossa história</h3>
+            <p class="lead">
+               Nossa história começa na Transilvânia em meados do século XIX, quando o pizzaolo japonês KomiKu viajou para este lugar em busca da 
+               melhor pizza do mundo. KomiKu DiKien Talendo, seguia a melodia sagrada de Blue Pen quando encontrou Lobisomem Pidão, este o apresentou a melhor comida que já tinha expirementado: A Farinha na cumbuca.
+               Após isso Komiku se tornou seguidor de Lobisomem pidão e aprendeu a arte do Mim dê papai, foi para a Itália e em seguida o Brasil, onde fundou o Pizza boa demaizi
+               com base na receita da Farinha na Cumbuca.
+            </p>  
+            <h3 class="display-4 mb-0">Nosso diferencial</h3>
+            <p class="lead">
+                Nosso produto é de qualidade, nosso atendimento cordial, nosso ambiente aconchegante e nossa agilidade na entrega dodelivery.
+            </p>
+            <h3 class="display-4 mb-0">Nossa missão</h3>
+            <p class="lead">
+                eu vou ser hokage! tô certo!
+            </p>
+            <h3 class="display-4 mb-0">Nossos valores</h3>
+            <p class="lead">
+                Nossos valores são incontestáveis e nunca abriremos mão deles pois sabemos que uma grande pessoa ou empresa depende exclusivamente seus valores e seus ideais.
+            </p>
+            <h3 class="display-4 mb-0">Filosofia</h3>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">
+                    Faça ou não faça, tentativa não há!
+                </p>
+                <footer class="blockquote-footer">
+                    Mestre jedi
+                    <cite>Yoda</cite>
+                </footer>
+            </blockquote>
+        </div>
+    </section>
+    <section id="doce">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-light doceTexto">
+                    <h1 class="display-1">Pizza Doce</h1>
+                    <p class="lead"><strong>Que tal adoçar sua vida?</strong></p>
+                    <p class="lead">Temos diversas opções para os amantes do doce, aqueles que preferem um sabor mais adocicado</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="caixa-conteudo">
         <div class="container">
-            <ul>
-                <li>
-                    cardapio
-                </li>
-            </ul>
+            <div class="row">
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-center">
+                        <div style="text-align: center;">
+                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                            <h3>Edinaldo Pereira</h3>
+                                <p>
+                                    Você não vale nada, você vale tudo, você topa qualquer parada
+                                </p>
+                                <h4>R$ 20,00</h4>
+                            </div>
+                    </div>
+                </div>
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-center ml-auto mr-auto">
+                        <div style="text-align: center;">
+                        <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                        <h3>Edinaldo Pereira</h3>
+                            <p>
+                                Você não vale nada, você vale tudo, você topa qualquer parada
+                            </p>
+                            <h4>R$ 20,00</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-end ml-auto">
+                        <div style="text-align: center;">
+                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                            <h3>Edinaldo Pereira</h3>
+                                <p>
+                                    Você não vale nada, você vale tudo, você topa qualquer parada
+                                </p>
+                                <h4>R$ 20,00</h4>
+                            </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3" style="margin-top: 20px; margin-bottom:10px">
+                    <div class="align-self-center mr-auto ml-auto">
+                        <div style="text-align: center;"> 
+                            <a href="" class="btn btn-success"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
+                            <p class="mb-0 mt-0"><strong>Faça seu pedido pelo whatsapp</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- pedido -->
+    <section id="salgada">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-light doceTexto">
+                    <h1 class="display-1">Pizza Salgada</h1>
+                    <p class="lead"><strong>Que tal adoçar sua vida?</strong></p>
+                    <p class="lead">Temos diversas opções para os amantes do doce, aqueles que preferem um sabor mais adocicado</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="caixa-conteudo">
-        <div class="contato">
-            pedido
+        <div class="container">
+            <div class="row">
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-center">
+                        <div style="text-align: center;">
+                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                            <h3>Edinaldo Pereira</h3>
+                                <p>
+                                    Você não vale nada, você vale tudo, você topa qualquer parada
+                                </p>
+                                <h4>R$ 20,00</h4>
+                            </div>
+                    </div>
+                </div>
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-center ml-auto mr-auto">
+                        <div style="text-align: center;">
+                        <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                        <h3>Edinaldo Pereira</h3>
+                            <p>
+                                Você não vale nada, você vale tudo, você topa qualquer parada
+                            </p>
+                            <h4>R$ 20,00</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex col-md-4">
+                    <div class="justify-self-end ml-auto">
+                        <div style="text-align: center;">
+                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                            <h3>Edinaldo Pereira</h3>
+                                <p>
+                                    Você não vale nada, você vale tudo, você topa qualquer parada
+                                </p>
+                                <h4>R$ 20,00</h4>
+                            </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 offset-md-3" style="margin-top: 20px; margin-bottom:10px">
+                    <div class="align-self-center mr-auto ml-auto">
+                        <div style="text-align: center;"> 
+                            <a href="" class="btn btn-success"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
+                            <p class="mb-0 mt-0"><strong>Faça seu pedido pelo whatsapp</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- rodapé -->
+    <section id="promocao">
+        <div class="container">
+            <div class="d-flex">
+                <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">Promoções semanais</h2>
+            </div>  
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cardPromocao">
+                        <h4 class="titulo_cardPromocao">Lobisomem pidão</h4>
+                        <p class="lead">
+                            Pizza grande (qualquer sabor) +  Refrigerante 2L + 'Mim dê papai'
+                        </p>
+                        <h3>R$ 44,90</h3>
+                        <span>*válido apenas nas segundas</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cardPromocao">
+                        <h4 class="titulo_cardPromocao">nham-nham de terça</h4>
+                        <p class="lead">
+                            Pizza média (qualquer sabor) +  Refrigerante 1.5L + 'Cabloco, gosta de farinha na cumbuca?'
+                        </p>
+                        <h3>R$ 25,90</h3>
+                        <span>*válido apenas nas terças</span>
+                    </div>
+                </div>
 
-
-
-
+                <div class="col-md-4">
+                    <div class="cardPromocao">
+                        <h4 class="titulo_cardPromocao">Pizzaria Out</h4>
+                        <p class="lead">
+                            Pizza tamanho Cibã (qualquer sabor) + 'FAKE NATTY'
+                        </p>
+                        <p>
+                            <strong>não acompanha suco</strong>
+                        </p>
+                        <h3>R$ 30,90</h3>
+                        <span>*válido apenas quando der na telha</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex col-md-6 offset-md-3">
+                    <div class="justify-self-center ml-auto mr-auto" style="margin-top: 10px;">
+                        <a href="" class="btn btn-success"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section id="bomApetite">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link link-footer" id="link-footer" href="#quemSomos">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="link-footer" href="#contato">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="link-footer" href="#doce">Pizza doce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="link-footer" href="#salgada">Pizza salgada</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-sm">
+                        <ul class="navbar-nav ml-auto" id="redes-sociais">
+                            <li class="nav-item">
+                                <a class="nav-link text-success">
+                                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning">
+                                    <i class="fa-brands fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info">
+                                    <i class="fa-brands fa-facebook fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- JavaScript bootstrap -->
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
