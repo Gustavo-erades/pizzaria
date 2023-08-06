@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <a href="#" class="navbar-brand">
                     <span class="text-light">Pizza boa demaizi</span>
@@ -42,7 +42,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#promocao" class="nav-link">Promoções</a>
+                            <a href="#promocao-titulo" class="nav-link">Promoções</a>
                         </li>
                     </ul>
                 </div>
@@ -55,9 +55,28 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3  d-flex">
                     <div class="align-self-center text-light">
-                        <h1 class="display-2">Sabor? Disso entendemos...</h1>
+                        <h1>Sabor? Disso entendemos...</h1>
                         <h4 class="h2">Uma opção saborosa que seu paladar nunca experimentou.</h4>
-                        <p class="lead text-light">Nosso cardápio contém pizzas saborosas de uma forma que você nunca viu!<strong> Mim dê papai!</strong></p>
+                        <div class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h2 class="lead">Uma opção saborosa que você nunca experimentou.</h2>
+                                </div>
+                                <div class="carousel-item">
+                                    <h2 class="lead">É novo, é saboroso, é uma <strong>pizza boa demaizi</strong></h2>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="carousel slide part2" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p class="lead text-light">Nosso cardápio contém pizzas saborosas de uma forma que você nunca viu!<strong> Mim dê papai!</strong></p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="lead text-light">É novo, é diferente, é saboroso é uma<strong> Pizza boa demaizi!</strong></p>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
                 </div>
             </div>
@@ -67,7 +86,7 @@
     <section class="caixa-conteudo" id="contato">
         <div class="container">
             <div class="row" style="margin-top: 10px;margin-bottom:10px">
-                <div class="col-md-8">
+                <div class="col-lg-8 col-md-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.7601700690566!2d-48.065340824928924!3d-15.816595023502053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a336b2c680609%3A0xa075223e7922148e!2sPizzaria%20Nona%20Pinna!5e0!3m2!1spt-BR!2sbr!4v1691177858253!5m2!1spt-BR!2sbr" 
                      width="600px" height="300px"  style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -134,41 +153,177 @@
     <section class="caixa-conteudo">
         <div class="container">
             <div class="row">
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-center">
-                        <div style="text-align: center;">
-                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                            <h3>Edinaldo Pereira</h3>
-                                <p>
-                                    Você não vale nada, você vale tudo, você topa qualquer parada
-                                </p>
-                                <h4>R$ 20,00</h4>
+                <div class="col-md-12">
+                    <div id="carousel-controles-sm" class="carousel slide" data-ride="carousel">
+                        <!-- mostra 1 card em telas menores-->
+                        <div class="carousel-inner d-block d-md-none">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6 offset-sm-3 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                    </div>
-                </div>
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-center ml-auto mr-auto">
-                        <div style="text-align: center;">
-                        <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                        <h3>Edinaldo Pereira</h3>
-                            <p>
-                                Você não vale nada, você vale tudo, você topa qualquer parada
-                            </p>
-                            <h4>R$ 20,00</h4>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-end ml-auto">
-                        <div style="text-align: center;">
-                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                            <h3>Edinaldo Pereira</h3>
-                                <p>
-                                    Você não vale nada, você vale tudo, você topa qualquer parada
-                                </p>
-                                <h4>R$ 20,00</h4>
+                    <div id="carousel-controles" class="carousel slide d-none d-md-block" data-ride="carousel">
+                        <!-- mostra 3 cards quanto a tela for maior-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
                             </div>
-                    </div>  
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <a href="#carousel-controles-sm" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carousel-controles-sm" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -189,7 +344,7 @@
                 <div class="col-md-12 text-light doceTexto">
                     <h1 class="display-1">Pizza Salgada</h1>
                     <p class="lead"><strong>Que tal adoçar sua vida?</strong></p>
-                    <p class="lead">Temos diversas opções para os amantes do doce, aqueles que preferem um sabor mais adocicado</p>
+                    <p class="lead">Quer algo salgado? calabresa, frango, muçarela e diversas outras opções</p>
                 </div>
             </div>
         </div>
@@ -197,44 +352,179 @@
     <section class="caixa-conteudo">
         <div class="container">
             <div class="row">
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-center">
-                        <div style="text-align: center;">
-                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                            <h3>Edinaldo Pereira</h3>
-                                <p>
-                                    Você não vale nada, você vale tudo, você topa qualquer parada
-                                </p>
-                                <h4>R$ 20,00</h4>
+                <div class="col-md-12">
+                    <div id="carousel-controles-salgada-sm" class="carousel slide" data-ride="carousel">
+                        <!-- mostra 1 card em telas menores-->
+                        <div class="carousel-inner d-block d-md-none">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6 offset-sm-3 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                    </div>
-                </div>
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-center ml-auto mr-auto">
-                        <div style="text-align: center;">
-                        <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                        <h3>Edinaldo Pereira</h3>
-                            <p>
-                                Você não vale nada, você vale tudo, você topa qualquer parada
-                            </p>
-                            <h4>R$ 20,00</h4>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex col-md-4">
-                    <div class="justify-self-end ml-auto">
-                        <div style="text-align: center;">
-                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
-                            <h3>Edinaldo Pereira</h3>
-                                <p>
-                                    Você não vale nada, você vale tudo, você topa qualquer parada
-                                </p>
-                                <h4>R$ 20,00</h4>
+                    <!-- mostra 3 cards em telas maiores-->
+                    <div id="carousel-controles-salgada" class="carousel slide d-none d-md-block" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
                             </div>
-                    </div>  
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <a href="#carousel-controles-salgada-sm" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carousel-controles-salgada-sm" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <a href="#carousel-controles-salgada" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carousel-controles-salgada" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>          
                 </div>
             </div>
-            
             <div class="row">
                 <div class="col-md-6 offset-md-3" style="margin-top: 20px; margin-bottom:10px">
                     <div class="align-self-center mr-auto ml-auto">
@@ -247,51 +537,173 @@
             </div>
         </div>
     </section>
-    <section id="promocao">
+    <section id="promocao-titulo">
         <div class="container">
             <div class="d-flex">
                 <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">Promoções semanais</h2>
             </div>  
+        </div>
+    </section>
+    <section id="promocao">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="cardPromocao">
-                        <h4 class="titulo_cardPromocao">Lobisomem pidão</h4>
-                        <p class="lead">
-                            Pizza grande (qualquer sabor) +  Refrigerante 2L + 'Mim dê papai'
-                        </p>
-                        <h3>R$ 44,90</h3>
-                        <span>*válido apenas nas segundas</span>
+                <div class="col-md-12">
+                    <div id="carousel-controles-salgada-sm" class="carousel slide" data-ride="carousel">
+                        <!-- mostra 1 card em telas menores-->
+                        <div class="carousel-inner d-block d-md-none">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6 offset-sm-3 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div style="text-align: center;">
+                                            <img src="./imagens/pizzaExemplo.png" alt="ícone de pizza" class="img-fluid">
+                                            <h3>Edinaldo Pereira</h3>
+                                            <p>
+                                                Você não vale nada, você vale tudo, você topa qualquer parada
+                                            </p>
+                                            <h4>R$ 20,00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="cardPromocao">
-                        <h4 class="titulo_cardPromocao">nham-nham de terça</h4>
-                        <p class="lead">
-                            Pizza média (qualquer sabor) +  Refrigerante 1.5L + 'Cabloco, gosta de farinha na cumbuca?'
-                        </p>
-                        <h3>R$ 25,90</h3>
-                        <span>*válido apenas nas terças</span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="cardPromocao">
-                        <h4 class="titulo_cardPromocao">Pizzaria Out</h4>
-                        <p class="lead">
-                            Pizza tamanho Cibã (qualquer sabor) + 'FAKE NATTY'
-                        </p>
-                        <p>
-                            <strong>não acompanha suco</strong>
-                        </p>
-                        <h3>R$ 30,90</h3>
-                        <span>*válido apenas quando der na telha</span>
+                    <!-- mostra 3 cards em telas maiores -->
+                    <div id="carousel-controles-promocao" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card2.jpg" class="img-fluid">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">Lobisomen pidão</h1>
+                                                <p class="card-text  mb-0">
+                                                    Pizza grande (qualquer sabor) +  Refrigerante 2L + 'Mim dê papai'
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 44,90</h3>
+                                                <span class="card-text mb-0">*válido apenas nas segundas</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card1.jpg" class="img-fluid">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">nham-nham de terça</h1>
+                                                <p class="card-text  mb-0">
+                                                    Pizza média (qualquer sabor) +  Refrigerante 1.5L + 'Cabloco, gosta de farinha na cumbuca?'
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 44,90</h3>
+                                                <span class="card-text mb-0">*válido apenas nas segundas</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card4.jpg" class="img-fluid">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">Pizzaria Out</h1>
+                                                <p class="card-text mb-0">
+                                                    Pizza tamanho Cibã (qualquer sabor) + 'FAKE NATTY'
+                                                </p>
+                                                <p class="card-text mb-0">
+                                                    <strong>obs: não acompanha suco</strong>
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 30,90</h3>
+                                                <span class="card-text mb-0">*válido apenas quando der na telha</span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card1.jpg" class="img-fluid">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">Lobisomen pidão</h1>
+                                                <p class="card-text  mb-0">
+                                                    Pizza grande (qualquer sabor) +  Refrigerante 2L + 'Mim dê papai'
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 44,90</h3>
+                                                <span class="card-text mb-0">*válido apenas nas segundas</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card5.jpg" class="img-fluid">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">nham-nham de terça</h1>
+                                                <p class="card-text  mb-0">
+                                                    Pizza média (qualquer sabor) +  Refrigerante 1.5L + 'Cabloco, gosta de farinha na cumbuca?'
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 44,90</h3>
+                                                <span class="card-text mb-0">*válido apenas nas segundas</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img src="./imagens/card4.jpg" class="img-fluid">
+                                            <div class="card-body mt-0">
+                                                <h4 class="card-title mb-0">Pizzaria Out</h1>
+                                                <p class="card-text mb-0">
+                                                    Pizza tamanho Cibã (qualquer sabor) + 'FAKE NATTY'
+                                                </p>
+                                                <p class="card-text mb-0">
+                                                    <strong>obs: não acompanha suco</strong>
+                                                </p>
+                                                <h3 class="card-text mb-0">R$ 30,90</h3>
+                                                <span class="card-text mb-0">*válido apenas quando der na telha</span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>            
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="d-flex col-md-6 offset-md-3">
+                <div class="col-md-6 offset-md-3 d-flex"> 
                     <div class="justify-self-center ml-auto mr-auto" style="margin-top: 10px;">
-                        <a href="" class="btn btn-success"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
+                        <a class="btn btn-primary mb-3 mr-1" href="#carousel-controles-promocao" role="button" data-slide="prev" id="teste">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3" href="#carousel-controles-promocao" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                        <a href="" class="btn btn-success mb-3 mr-1 mr-3"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
                     </div>
                 </div>
             </div>
