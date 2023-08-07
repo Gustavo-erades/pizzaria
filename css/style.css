@@ -27,6 +27,38 @@ section#home h1{
 section#home p{
     font-size: 1.5em;
 }
+@media (max-width:574.98px){
+    body{
+        font-size: 14px;
+    }
+    header .navbar-brand span{
+        font-size: 2em;
+    }
+    section#home h1{
+       display: none;
+    }
+    section#home h4.titulo-pequeno{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+     }
+     section#contato{
+        font-size: 1em;
+     }
+     section#quemSomos{
+        font-size: 0.8em;
+     }
+     section#quemSomos h3{
+        font-size: 0.9em;
+     }
+     section#doce p.texto-doce-pequeno{
+        display: block;
+     }
+     section#promocao-titulo h2#promocoes{
+        font-size: 3.6em;
+     }
+}
 @media (max-width:576px){
     section#home h1{
         text-align: center;
@@ -63,9 +95,14 @@ section#home p{
     section#quemSomos p.lead{
         font-size: 1.3em;
     }
+}
+@media(min-width:1020px){
     
 }
 @media (min-width:577px){
+    section#home h1{
+        text-align: center;
+    }
     section#home h2.lead{
         display: none;
     }
