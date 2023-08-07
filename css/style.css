@@ -143,3 +143,6 @@ section#promocao .card{
 section#promocao .card img.img-fluid{
     border-radius: 4px;
 }
+a.link-do-carousel:hover{
+    text-decoration: none;
+}
