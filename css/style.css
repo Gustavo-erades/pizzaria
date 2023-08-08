@@ -58,7 +58,8 @@ section#home p{
     section#promocao-titulo h2#promocoes{
         font-size: 6em;
         padding-top: 20px;
-        padding-bottom:10px
+        padding-bottom:10px;
+        text-align: center;
     }
 }
 @media(max-width:300px){
@@ -169,7 +170,7 @@ section#home p{
         display: none;
      }
     section#promocao-titulo h2#promocoes{
-        font-size: 5em;
+        font-size: 4.7em;
     }
     section#quemSomos{
         font-size: 1.8em;
