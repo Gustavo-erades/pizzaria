@@ -63,9 +63,6 @@ section#home p{
     body{
         font-size: 14px;
     }
-    section#salgada h1{
-        font-size:1em;
-    }
     header .navbar-brand span{
         font-size: 1.6em;
     }
@@ -147,10 +144,10 @@ section#home p{
         padding-bottom:20px
     }
     section#salgada h1{
-        font-size: 4.7em;
+        font-size: 5em;
     }
     section#doce h1{
-        font-size: 4.7em;
+        font-size: 5.2em;
     }
 }
 @media (min-width:500px){
