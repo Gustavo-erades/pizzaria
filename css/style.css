@@ -63,6 +63,9 @@ section#home p{
     body{
         font-size: 14px;
     }
+    section#salgada h1{
+        font-size:2.9em;
+    }
     header .navbar-brand span{
         font-size: 1.6em;
     }
@@ -218,7 +221,7 @@ section#home p{
 }
 @media (min-width:900px){
     section#quemSomos{
-        font-size: 1.3em;
+        font-size: 1.1em;
      }
      section#contato{
         font-size:1.3em;
