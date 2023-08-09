@@ -5,14 +5,16 @@
 html, body{
     scroll-behavior: smooth;
 }
-.navbar-brand span{
-    font-family: "fonte torta";
-    font-size: 3em;
-    font-weight: bold;
-}
 .navbar-toggler:focus,
 .navbar-toggler:active{
     outline: none;
+}
+section#QuemSomos-titulo{
+    font-family: "fonte torta";
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #promocoes{
     font-family: "fonte torta";
@@ -62,6 +64,9 @@ section#home p{
         font-size: 1.2em;
     }
     section#contato{
+        font-size: 0.8em;
+    }
+    section#QuemSomos-titulo{
         font-size: 0.8em;
     }
 }
@@ -189,6 +194,9 @@ section#home p{
     }
     section#home h2.lead{
         display: none;
+    }
+    section#QuemSomos-titulo{
+        font-size: 1em;
     }
 }
 @media (min-width:700px){
