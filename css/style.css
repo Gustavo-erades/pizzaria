@@ -251,7 +251,7 @@ section#promocao-titulo{
 section#promocao{
     padding-top: 10px;
 }
-section#home, section#bomApetite, nav, section#promocao-titulo{
+section#home, section#bomApetite, nav, section#promocao-titulo, section#QuemSomos-titulo{
     background-image: url(../imagens/fundo-home2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,12 +272,12 @@ section .doceTexto{
     padding-bottom:20px
 }
 section.caixa-conteudo{
-    background-color: 	#f79206;
+    background-color: #ffae00;
     padding-top: 16px;
     padding-bottom: 8px;
 }
 #quemSomos,#promocao{
-    background-color: #e7a344;
+    background-color: #180e01 ;
     padding: 5px;
     text-align: justify;
 }
@@ -299,7 +299,7 @@ section.caixa-conteudo{
     margin-bottom: 0;
 }
 .dropdown-menu a.dropdown-item:hover{
-    background-color: #d69b48;
+    background-color: #180e01;
     color: aliceblue;
 } 
 section#promocao .card{
@@ -310,4 +310,16 @@ section#promocao .card img.img-fluid{
 }
 a.link-do-carousel:hover{
     text-decoration: none;
+}
+section#bomApetite a.nav-link{
+    color: #ffae00;
+}
+section#bomApetite a.nav-link:hover{
+    color: #ffae00ce;
+}
+section#bomApetite a.nav-link#link-redes{
+    color: #fff;
+}
+section#bomApetite a.nav-link#link-redes:hover{
+    color: #ffffffcd;
 }
