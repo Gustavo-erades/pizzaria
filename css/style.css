@@ -277,7 +277,7 @@ section#home, section#bomApetite, nav, section#promocao-titulo, section#QuemSomo
     background-position: center;
     height: 100%;
 }
-section#doce, section#salgada{
+section#doce, section#salgada, section#especial{
     background-image: url(../imagens/pizza-escura.jpg);
     background-repeat: no-repeat;
     background-size: cover;
