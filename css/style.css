@@ -169,7 +169,8 @@ section#home p{
         padding-bottom:15px
     }
     section#salgada h1{
-        font-size: 4.7em;
+        font-size: 5em;
+        color:red;
     }
     section#especial h1{
         font-size: 5em;
