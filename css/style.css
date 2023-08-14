@@ -59,7 +59,10 @@ section#home p{
      section#doce p{
         font-size:1.5em;
     }
-    section#salgada h1, section#especial h1{
+    section#salgada h1{
+        font-size:1.5em
+    }
+    section#especial h1{
         font-size:3.3em;
     }
      section#salgada p, section#especial p{
@@ -165,7 +168,10 @@ section#home p{
         padding-top: 15px;
         padding-bottom:15px
     }
-    section#salgada h1, section#especial h1{
+    section#salgada h1{
+        font-size: 4em;
+    }
+    section#especial h1{
         font-size: 5em;
     }
     section#doce h1{
