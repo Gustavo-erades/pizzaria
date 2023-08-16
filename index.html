@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- fonte awesome -->
     <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./imagens/Logo pizza king.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagens/Logo antiga.png" type="image/x-icon">
     <title>King Pizzaria</title>
 </head>
 <body>
@@ -92,113 +92,55 @@
     </section>
     <section id="promocao">
         <div class="container">
-            <div class="d-flex">
-                <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">Promoções</h2>
-            </div>
             <div class="row">
                 <div class="col-md-12">
                     <div id="carousel-controles-promocao-sm" class="carousel slide d-block d-md-none" data-ride="carousel">
                         <!-- mostra 1 card em telas menores-->
                         <div class="carousel-inner d-block d-md-none">
                             <div class="carousel-item active">
+                                <div class="d-flex">
+                                    <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">Promoção da King</h2>
+                                </div>
                                 <div class="row">
                                     <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
+                                        <div style="text-align: center;" class="card">
                                             <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de segunda</h1>
-                                                <p class="card-text  mb-0">
-                                                    Duas pizzas médias (qualquer sabor) +  Refrigerante 1.5L (gratuito)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 60,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas segundas-feiras</span>
-                                            </div>
+                                                <ul id="promocao-lista-sm" class="card-text">
+                                                    <li>
+                                                        1 pizza grande (sabores tradicionais)
+                                                    </li>
+                                                    <li>
+                                                        + 1 pizza brotinho de chocolate
+                                                    </li>
+                                                    <li>
+                                                        + 1 refrigerante de 1,5 litros
+                                                    </li>
+                                                </ul>
+                                                <h2 class="text-success card-text">por apenas <strong>R$ 44,99 </strong></h2>
+                                            </div>  
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
+                                <div class="d-flex">
+                                    <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">King Pizza do dia</h2>
+                                </div>
                                 <div class="row">
                                     <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
+                                        <div style="text-align: center;" class="card">
                                             <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de terça</h1>
-                                                <p class="card-text  mb-0">
-                                                   Três pizzas médias (qualquer sabor) +  Refrigerante 1.5L (gratuito)
+                                                <p id="promocao-do-dia-sm" class="card-text">
+                                                    Todo dia uma King Pizza diferente, saborosa e com preço especial feita para você
                                                 </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 95,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas terças-feiras</span>
+                                                <p id="promocao-do-dia-sm" class="card-text mb-0 mt-0">
+                                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20saber%20os%20sabores%20da%20pizza%20do%20dia%20" target="_blank">
+                                                        Confira os sabores
+                                                    </a>
+                                                </p>
+                                                <h2 class="text-success card-text">por apenas <strong>R$ 29,99 </strong> </h2>    
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de quarta</h1>
-                                                <p class="card-text  mb-0">
-                                                    Uma pizza grande ou tamanho família + duas mini pizzas (qualquer sabor)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 90,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas quartas-feiras</span>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de quinta</h1>
-                                                <p class="card-text  mb-0">
-                                                    20% de desconto na compra de 2 ou mais pizzas (quaisquer sabores)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-danger">-20%</h3>
-                                                <span class="card-text mb-0">*válido apenas nas quintas-feiras</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de sexta</h1>
-                                                <p class="card-text  mb-0">
-                                                    30% de desconto na compra de 3 ou mais pizzas (quaisquer sabores)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-danger">-30%</h3>
-                                                <span class="card-text mb-0">*válido apenas nas sextas-feiras</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body mt-0">
-                                                <h4 class="card-title mb-0">Promoção de sábado</h1>
-                                                <p class="card-text  mb-0">
-                                                    Na compra de 3 pizzas uma sai gratuita + Refrigerante 2 litros
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 70,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nos sábados</span>
-                                            </div>
-                                        </div> 
                                     </div>
                                 </div>
                             </div>
@@ -213,8 +155,7 @@
                             </div>
                             <div class="d-flex">
                                 <div class="justify-self-center ml-auto mr-auto mb-0">
-                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20uma%20pizza%20na%20promo%C3%A7%C3%A3o" target="_blank" class="btn bg-light" style="color: #000;"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
-                                    
+                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20uma%20king%20pizza%20na%20promo%C3%A7%C3%A3o" target="_blank" class="btn bg-light" style="color: #000;"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a> 
                                 </div>
                             </div>
                             <div class="ml-auto">
@@ -230,88 +171,49 @@
                     <div id="carousel-controles-promocao" class="carousel slide d-none d-md-block" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
+                                <div class="d-flex">
+                                    <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">Promoção da King</h2>
+                                </div>
                                 <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
+                                    <div class="col-md-6 offset-md-3 mb-3">
+                                        <div style="text-align: center;" class="card">
                                             <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de segunda</h1>
-                                                <p class="card-text  mb-0">
-                                                    Duas pizzas médias (qualquer sabor) +  Refrigerante 1.5L (gratuito)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 60,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas segundas-feiras</span>
-                                            </div>
+                                                <ul id="promocao-lista" class="card-text">
+                                                    <li>
+                                                        1 pizza grande (sabores tradicionais)
+                                                    </li>
+                                                    <li>
+                                                        + 1 pizza brotinho de chocolate
+                                                    </li>
+                                                    <li>
+                                                        + 1 refrigerante de 1,5 litros
+                                                    </li>
+                                                </ul>
+                                                <h2 class="text-success card-text">por apenas <strong>R$ 44,99 </strong></h2>
+                                            </div>  
                                         </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de terça</h1>
-                                                <p class="card-text  mb-0">
-                                                   Três pizzas médias (qualquer sabor) +  Refrigerante 1.5L (gratuito)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 95,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas terças-feiras</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de quarta</h1>
-                                                <p class="card-text  mb-0">
-                                                    Uma pizza grande ou tamanho família + duas mini pizzas (qualquer sabor)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 90,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nas quartas-feiras</span>
-                                            </div>
-                                        </div> 
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
+                                <div class="d-flex">
+                                    <h2 class="display-3 text-light ml-auto mr-auto" id="promocoes">King Pizza do dia</h2>
+                                </div>
                                 <div class="row">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
+                                    <div class="col-md-6 offset-md-3 mb-3">
+                                        <div style="text-align: center;" class="card">
                                             <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de quinta</h1>
-                                                <p class="card-text  mb-0">
-                                                    20% de desconto na compra de 2 ou mais pizzas (quaisquer sabores)
+                                                <p id="promocao-do-dia" class="card-text">
+                                                    Todo dia uma King Pizza diferente, saborosa e com preço especial feita para você
                                                 </p>
-                                                <h3 class="card-text mb-0 text-danger">-20%</h3>
-                                                <span class="card-text mb-0">*válido apenas nas quintas-feiras</span>
-                                            </div>
+                                                <p id="promocao-do-dia" class="card-text mb-0 mt-0">
+                                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20saber%20os%20sabores%20da%20pizza%20do%20dia%20" target="_blank">
+                                                        Confira os sabores
+                                                    </a>
+                                                </p>
+                                                <h2 class="text-success card-text">por apenas <strong>R$ 29,99 </strong> </h2>    
+                                            </div>    
                                         </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body">
-                                                <h4 class="card-title mb-0">Promoção de sexta</h1>
-                                                <p class="card-text  mb-0">
-                                                    30% de desconto na compra de 3 ou mais pizzas (quaisquer sabores)
-                                                </p>
-                                                <h3 class="card-text mb-0 text-danger">-30%</h3>
-                                                <span class="card-text mb-0">*válido apenas nas sextas-feiras</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img src="./imagens/promocao.jpg" alt="promoções king pizza" class="img-fluid">
-                                            <div class="card-body mt-0">
-                                                <h4 class="card-title mb-0">Promoção de sábado</h1>
-                                                <p class="card-text  mb-0">
-                                                    Na compra de 3 pizzas uma sai gratuita + Refrigerante 2 litros
-                                                </p>
-                                                <h3 class="card-text mb-0 text-success">R$ 70,00</h3>
-                                                <span class="card-text mb-0">*válido apenas nos sábados</span>
-                                            </div>
-                                        </div> 
                                     </div>
                                 </div>
                             </div>    
@@ -326,7 +228,7 @@
                             </div>
                             <div class="col-md-8 d-flex"> 
                                 <div class="justify-self-center ml-auto mr-auto" style="margin-top: 10px;">
-                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20uma%20pizza%20na%20promo%C3%A7%C3%A3o" target="_blank" class="btn bg-light" style="color: #000;"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
+                                    <a href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20uma%20king%20pizza%20na%20promo%C3%A7%C3%A3o" target="_blank" class="btn bg-light" style="color: #000;"><i class="fa-brands fa-whatsapp fa-2xl"></i> Fazer pedido</a>
                                 </div>
                             </div>
                             <div class="col-md-2 ">
@@ -335,10 +237,9 @@
                                         <span class="carousel-control-next-icon"></span>
                                     </a>
                                 </div>
-                               
                             </div>
                         </div>                                  
-                    </div>   
+                    </div> 
                 </div>         
             </div>
             <br>
@@ -425,7 +326,7 @@
                                         <div style="text-align: center;">
                                             <img src="./imagens/Mussarela.png" width="200px" alt="ícone de pizza" class="img-fluid">
                                             <h3>Mussarela</h3>
-                                            <p>
+                                            <p class="mb-0">
                                                 molho, mussarela, tomate e orégano
                                             </p>
                                             <h4>R$ 34,99</h4>
@@ -453,7 +354,7 @@
                                         <div style="text-align: center;">
                                             <img src="./imagens/Napolitana.png" width="200px" alt="ícone de pizza" class="img-fluid">
                                             <h3>Napolitana</h3>
-                                            <p>
+                                            <p class="mb-0">
                                                molho, mussarela, presunto, pomate, azeitona e orégano
                                             </p>
                                             <h4>R$ 34,99</h4>
@@ -467,7 +368,7 @@
                                         <div style="text-align: center;">
                                             <img src="./imagens/Milho.png" width="200px" alt="ícone de pizza" class="img-fluid">
                                             <h3>Milho Verde</h3>
-                                            <p>
+                                            <p class="mb-0">
                                                molho, mussarela, milho, azeitona e orégano
                                             </p>
                                             <h4>R$ 34,99</h4>
@@ -849,7 +750,7 @@
                                         <div style="text-align: center;">
                                             <img src="./imagens/Calabacon.png" width="200px" alt="ícone de pizza" class="img-fluid">
                                             <h3>Calabacon</h3>
-                                            <p>
+                                            <p class="mb-0">
                                                 molho, mussarela, calabresa, bacon, cebola, azeitona e orégano
                                             </p>
                                             <h4>R$ 44,99</h4>
@@ -919,7 +820,7 @@
                                         <div style="text-align: center;">
                                             <img src="./imagens/4 queijos.png" width="200px" alt="ícone de pizza" class="img-fluid">
                                             <h3>Quatro queijos</h3>
-                                            <p>
+                                            <p class="mb-0">
                                                molho, mussarela, gorgonzola, provolone, catupiry e orégano
                                             </p>
                                             <h4>R$ 44,99</h4>

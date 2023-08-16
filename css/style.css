@@ -353,3 +353,25 @@ section#bomApetite a.nav-link#link-redes{
 section#bomApetite a.nav-link#link-redes:hover{
     color: #ffffffcd;
 }
+#promocao-lista{
+    list-style: none;
+}
+#promocao-lista li{
+    font-family: "textos finos";
+    font-size: 1.5em;
+}
+#promocao-do-dia{
+    font-family: "textos finos";
+    font-size: 1.5em;
+}
+#promocao-lista-sm{
+    list-style: none;
+}
+#promocao-lista-sm li{
+    font-family: "textos finos";
+    font-size: 1.2em;
+}
+#promocao-do-dia-sm{
+    font-family: "textos finos";
+    font-size: 1.2em;
+}
