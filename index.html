@@ -177,7 +177,7 @@
                             </div>
                         </div>  
                     </div>
-                    <!-- mostra 3 cards em telas maiores -->
+                    <!-- telas maiores -->
                     <div id="carousel-controles-promocao" class="carousel slide d-none d-md-block" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -185,7 +185,32 @@
                                     <h2 class="display-3 text-warning ml-auto mr-auto" id="promocoes">Promoção real<span> &#9812;</span></h2>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 offset-md-3 mb-3">
+                                    <!-- até telas medium -->
+                                    <div class="col-md-6 offset-md-3 mb-3" id="card-medium">
+                                        <div style="text-align: center;" class="card">
+                                            <div class="card-body">
+                                                <ul id="promocao-lista">
+                                                    <li class="card-text">
+                                                        1 pizza <strong>tradicional</strong> grande 
+                                                    </li>
+                                                    <li class="card-text">
+                                                        <strong>+</strong> 1 pizza brotinho de chocolate
+                                                    </li>
+                                                    <li class="card-text">
+                                                        <strong>+</strong> 1 refrigerante de 1,5 litros
+                                                    </li>
+                                                </ul>
+                                                <p class="card-text" id="promocao-do-dia">por apenas <span class="preco-promocao">R$ 44,99</span></p>
+                                                <p id="promocao-do-dia" class="lead card-text mb-1">
+                                                    <a class="btn botao-promocao" href="#salgada">
+                                                        sabores tradicionais
+                                                    </a>
+                                                </p>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <!-- telas large pra cima -->
+                                    <div class="col-lg-8 offset-lg-2 mb-3" id="card-large">
                                         <div style="text-align: center;" class="card">
                                             <div class="card-body">
                                                 <ul id="promocao-lista">
@@ -215,7 +240,8 @@
                                     <h2 class="display-3 text-warning ml-auto mr-auto" id="promocoes">King Pizza do dia</h2>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 offset-md-3 mb-3">
+                                    <!-- até telas medium -->
+                                    <div class="col-md-6 offset-md-3 mb-3" id="card-medium">
                                         <div style="text-align: center;" class="card">
                                             <div class="card-body">
                                                 <p id="promocao-do-dia" class=" lead card-text">
@@ -228,6 +254,23 @@
                                                     </a>
                                                 </p>
                                                 <p><strong>*confira os sabores e peça por whatsapp*</strong></p>                
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <!--telas large pra cima -->
+                                    <div class="col-12 mb-3" id="card-large">
+                                        <div style="text-align: center;" class="card">
+                                            <div class="card-body">
+                                                <p id="promocao-do-dia" class=" lead card-text">
+                                                    Todo dia uma King Pizza diferente, saborosa e com preço especial feita para você!
+                                                </p>
+                                                <p id="promocao-do-dia" class="lead card-text"> por apenas <span class="preco-promocao">R$ 29,99</span></p> 
+                                                <p id="promocao-do-dia" class="lead card-text mb-0 mt-0">
+                                                    <a class="btn botao-promocao" href="https://wa.me/5561994448515/?text=ol%C3%A1,%20gostaria%20de%20saber%20os%20sabores%20da%20king%20pizza%20do%20dia%20" target="_blank">
+                                                        Confira os sabores
+                                                    </a>
+                                                </p>
+                                                <p id="promocao-do-dia-obs"><strong>*confira os sabores e peça por whatsapp*</strong></p>                
                                             </div>    
                                         </div>
                                     </div>

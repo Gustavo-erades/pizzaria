@@ -284,14 +284,27 @@ section#home p{
     section#quemSomos p.lead{
         font-size: 1.3em;
     }
-    #promocao-lista li{
+    ul#promocao-lista li{
+        font-size: 2em;
+    }
+    p#promocao-do-dia{
+        font-size: 2em;
+    }
+    span.preco-promocao{
+        display: inline;
+        font-size:1.5em;
+    }
+    p#promocao-do-dia-obs{
         font-size: 1.5em;
     }
-    #promocao-do-dia{
-        font-size: 1.5em;
+    #card-medium{
+        display: none;
     }
-    .preco-promocao{
-        font-size:xx-large;
+    #card-large{
+        display: block;
+    }
+    h2#promocoes{
+        font-size: 3.5em;
     }
 }
 @media(min-width:800px){
