@@ -60,7 +60,7 @@ section#home p{
         font-size:1.5em;
     }
     section#salgada h1{
-        font-size:3.3em
+        font-size:3em
     }
     section#especial h1{
         font-size:3.3em;
@@ -82,6 +82,16 @@ section#home p{
     }
     section#QuemSomos-titulo{
         font-size: 2em;
+    }
+    #promocao-do-dia-sm{
+        font-size: 1em;
+    }
+    ul#promocao-lista-sm{
+        display: none;
+    }
+    span.preco-promocao{
+        font-size:x-large;
+        display: block;
     }
 }
 @media(max-width:300px){
@@ -115,6 +125,10 @@ section#home p{
     #promocoes{
         font-size: 2.4em;
      }
+    .preco-promocao{
+        font-size:x-large;
+        display: inline;
+    }
 }
 @media (min-width:301.98px){
     body{
@@ -149,6 +163,12 @@ section#home p{
         padding-top: 15px;
         padding-bottom:15px
      }
+    #promocao-lista-sm-menor{
+        display: none;
+    }
+    ul#promocao-lista-sm{
+        display: block;
+    }
 }
 @media (min-width:400px){
     section#home h1{
@@ -176,6 +196,32 @@ section#home p{
     }
     section#doce h1{
         font-size: 5.2em;
+    }
+    #promocao-lista-sm li{
+        font-size: 1em;
+    }
+    #promocao-do-dia-sm{
+        font-size: 1em;
+    }
+    #promocao-lista-sm{
+        margin-bottom: 0px;
+    }
+    p#promocao-lista-sm{
+        margin-bottom: 8px;
+    }
+    .preco-promocao{
+        font-size:x-large;
+    }
+}
+@media (min-width:420px){
+    #promocao-lista-sm li{
+        font-size: 1em;
+    }
+    #promocao-do-dia-sm{
+        font-size: 1em;
+    }
+    .preco-promocao{
+        font-size:xx-large;
     }
 }
 @media (min-width:500px){
@@ -237,6 +283,15 @@ section#home p{
     }
     section#quemSomos p.lead{
         font-size: 1.3em;
+    }
+    #promocao-lista li{
+        font-size: 1.5em;
+    }
+    #promocao-do-dia{
+        font-size: 1.5em;
+    }
+    .preco-promocao{
+        font-size:xx-large;
     }
 }
 @media(min-width:800px){
