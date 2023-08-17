@@ -295,8 +295,9 @@ section#home p{
         font-size:1.5em;
     }
     p#promocao-do-dia-obs{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
+    
     #card-medium{
         display: none;
     }
@@ -446,7 +447,7 @@ section#bomApetite a.nav-link#link-redes:hover{
 .botao-promocao{
     background-color:#180e01;
     color: #fff;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     outline: none;
 }
 a.botao-promocao:hover {
