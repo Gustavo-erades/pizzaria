@@ -5,4 +5,5 @@
 ### -uso do Bootstrap 4;
 ### -uso de imagens do banco de imagens gratuitas Unsplash  (para imagens do fundo);
 ### -colaboração com designer para cores, posicionamento dos elementos e desenho de pizzas no carousel.
+#
 ## Link do site (pelo gitHub pages): https://gustavo-erades.github.io/pizzaria/
