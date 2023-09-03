@@ -1,44 +1,72 @@
 @font-face {
-    font-family: "titulo extra bold 1";
-    src: url("../fontes/fonte3/Milligram-Extrabold-trial.ttf");
+    font-family: "folks titulo";
+    src: url("../fontes/folks/Folks-Bold.ttf");
 }
 @font-face {
-    font-family: "titulo extra bold";
-    src: url("../fontes/fonte3/Milligram-Bold-Italic-trial.ttf");
+    font-family: "folks body";
+    src: url("../fontes/folks/Folks-Light.ttf");
+}
+@font-face {
+    font-family: "folks bold fino";
+    src: url("../fontes/folks/Folks-Normal.ttf");
+}
+@font-face {
+    font-family: "folks bold grosso";
+    src: url("../fontes/folks/FolksXXHeavy.ttf");
 }
 @font-face {
     font-family: "textos finos";
     src: url("../fontes/fonte4/Asap-Regular.otf");
 }
+@font-face {
+    font-family: "folks diferente";
+    src: url("../fontes/folks/FolksShades.ttf");
+}
 html, body{
     scroll-behavior: smooth;
-    font-family: "textos finos";
+    font-family: "folks body";
 }
 .navbar-toggler:focus,
 .navbar-toggler:active{
     outline: none;
 }
 section#QuemSomos-titulo{
-    font-family: "titulo extra bold";
+    font-family: "folks titulo";
     font-size: 3em;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-section#QuemSomos p{
-    font-family: "textos finos";
+section#quemSomos blockquote span p{
+    color: rgb(255, 236, 191);
+    font-family: "folks bold fino";
 }
 #promocoes{
-    font-family: "titulo extra bold";
+    font-family: "folks bold fino";
     font-size: 3em;
     margin-bottom: 15px;
 }
 section#home h1{
-    font-family: "titulo extra bold 1";
+    font-family: "folks titulo";
     font-size: 5em;
+    color: rgb(255, 227, 160);
+}
+section#home h4{
+    color: rgb(248, 235, 205);
 }
 section#home p{
     font-family: "textos finos";
     font-size: 1.5em;
+}
+section#salgada h1, section#doce h1, section#especial h1{
+    color: rgb(255,227,160);
+}
+section#salgada p, section#doce p, section#especial p{
+    color: rgb(255,227,160);
+    font-family: "folks bold fino";
+}
+section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subtitulo2{
+    color: rgb(251,170,0);
+    text-shadow: 2px 2px 4px #000;
 }
 @media (min-width:200px){
     section#home h4, .part2{
@@ -47,10 +75,10 @@ section#home p{
     section#home{
         padding-bottom: 20px;
     }
-    section#quemSomos p.lead{
+    section#quemSomos blockquote span p{
         font-size: 1.2em;
     }
-    section#quemSomos h3.display-4{
+    section#quemSomos h3{
         font-size: 1.8em;
     }
     section#doce h1{
@@ -281,7 +309,7 @@ section#home p{
     section#quemSomos h3{
         font-size: 2em;
     }
-    section#quemSomos p.lead{
+    section#quemSomos blockquote span p{
         font-size: 1.3em;
     }
     ul#promocao-lista li{
@@ -364,45 +392,54 @@ section#doce, section#salgada, section#especial{
 section .doceTexto{
     padding-top: 20px;
     padding-bottom:20px;
-    font-family:"textos finos";
+    font-family:"folks bold fino";
+}
+section .doceTexto h1{
+    font-family:"folks titulo";
 }
 section#especial{
-    font-family:"textos finos";
+    font-family:"folks bold fino";
 }
 section.caixa-conteudo{
-    background-color: /*#ffae00*/#ff9900;
+    background-color: rgb(251,170,0);
     padding-top: 16px;
     padding-bottom: 8px;
-    color: #180E01;
+    color: rgb(153, 24, 15);
 }
 #quemSomos,#promocao{
-    background-color: #180e01 ;
+    background: rgb(217,23,13);
+    background: linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14));
+    background: -o-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14)),
+                -moz-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14)),
+                -webkit-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14));
     padding: 5px;
     text-align: justify;
 }
 #quemSomos h3{
-    color: aliceblue;
+    color: rgb(255, 227, 160);
     font-size: 2.5em;
 }
 .nav-link{
     cursor: pointer;
+    font-family: "folks bold fino";
 }
 .cardPromocao{
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 8px;
     box-shadow: 2px 2px 3px #000;
-    background-color: aliceblue;
+    background-color: rgb(255, 227, 160);
 }
 .cardPromocao p{
     margin-bottom: 0;
 }
 .dropdown-menu a.dropdown-item:hover{
-    background-color: #180e01;
-    color: #ffae00;
+    background-color: rgb(153, 24, 15);
+    color: rgb(255, 227, 160);
 } 
 section#promocao .card{
     border-radius: 8px;
+    background-color: rgb(255, 227, 160);
 }
 section#promocao .card img.img-fluid{
     border-radius: 4px;
@@ -411,13 +448,13 @@ a.link-do-carousel:hover{
     text-decoration: none;
 }
 section#bomApetite a.nav-link, #home-header a.nav-link{
-    color: #ffae00;
+    color: rgb(251, 170, 0);
 }
 section#bomApetite a.nav-link:hover, #home-header a.nav-link:hover{
-    color: #ffae00ce;
+    color: rgb(255, 227,160);
 }
 section#bomApetite a.nav-link#link-redes{
-    color: #fff;
+    color: rgb(255, 227, 160);
 }
 section#bomApetite a.nav-link#link-redes:hover{
     color: #ffffffcd;
@@ -426,37 +463,134 @@ section#bomApetite a.nav-link#link-redes:hover{
     list-style: none;
 }
 #promocao-lista li{
-    font-family: "textos finos";
+    font-family: "folks body";
     font-size: 1.5em;
 }
 #promocao-do-dia{
-    font-family: "textos finos";
+    font-family: "folks body";
     font-size: 1.5em;
 }
 #promocao-lista-sm{
     list-style: none;
 }
 #promocao-lista-sm li{
-    font-family: "textos finos";
+    font-family: "folks body";
     font-size: 1em;
 }
 #promocao-do-dia-sm{
-    font-family: "textos finos";
+    font-family: "folks body";
     font-size: 1em;
 }
 .botao-promocao{
-    background-color:#180e01;
-    color: #fff;
-    /*text-transform: uppercase;*/
-    outline: none;
+    background-color:rgb(255, 227, 160);
+    color: rgb(43, 3, 0);
+    outline: 2px solid rgb(229, 35, 22);
+    font-family: "folks bold fino";
 }
 a.botao-promocao:hover {
-    background-color:#050300;
-    color: #c9c4c4;
-    outline: none;
+    background-color: rgb(249, 210, 118);
+    color: rgb(43, 3, 0);
+    font-weight: bold;
+}
+a.botao-promocao:focus{
+    outline: 2px solid rgb(229, 35, 22);
+    box-shadow: 0 0 0 0;
+    border: none;
 }
 .preco-promocao{
     font-weight: bold;
-    color:#00b530;
+    color: rgb(217, 23, 13);
     font-size:xx-large;
+    font-family: "folks diferente";
+}
+div.dropdown-menu{
+    background-color: rgb(255, 227, 160);
+    font-family: "folks bold fino";
+}
+section#contato{
+    background:rgb(251,170,0);
+    background: linear-gradient( 50deg,rgb(251, 84, 0),rgb(251,170,0));
+    background: -o-linear-gradient( 50deg,rgb(251, 84, 0),rgb(251,170,0)),
+                -moz-linear-gradient( 50deg,rgb(251, 84, 0),rgb(251,170,0))
+                -webkit-linear-gradient( 50deg,rgb(251, 84, 0),rgb(251,170,0)); 
+    color: rgb(43, 3, 0);
+    font-family: "folks bold fino";
+}
+section.caixa-conteudo{
+    background:rgb(251,170,0);
+    background: linear-gradient(50deg,rgb(251, 84, 0),rgb(251,170,0));
+    background: -o-linear-gradient(50deg,rgb(251, 84, 0),rgb(251,170,0)),
+                -moz-linear-gradient(50deg,rgb(251, 84, 0),rgb(251,170,0))
+                -webkit-linear-gradient(50deg,rgb(251, 84, 0),rgb(251,170,0)); 
+}
+section#QuemSomos-titulo h4{
+    color: rgb(255, 227,160);
+}
+a.whats{
+    background-color: rgb(255, 227, 160);
+    color:rgb(43, 3, 0);
+}
+a.whats:hover{
+    color:rgb(43, 3, 0);
+    background-color: rgb(249, 210, 118);
+}
+ul#redes-sociais a.nav-link{
+    color: rgb(255, 179, 0);
+}
+ul#redes-sociais a:hover{
+    color: rgb(249, 210, 118);
+}
+div.cartao-pizza{
+    background-color: rgb(255, 227, 160);
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 0;
+}
+i.seta{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(153, 24, 15);
+}
+div#carousel-controles-salgada div.cartao-pizza h4 span,
+div#carousel-controles-salgada-sm div.cartao-pizza h4 span,
+div#carousel-controles-sm div.cartao-pizza h4 span,
+div#carousel-controles div.cartao-pizza h4 span,
+div#carousel-controles-especial-sm div.cartao-pizza h4 span,
+div#carousel-controles-especial div.cartao-pizza h4 span
+{
+    color:rgb(251, 170, 0);
+    font-family: "folks diferente";
+}
+div#carousel-controles-salgada div.cartao-pizza h4,
+div#carousel-controles-salgada-sm div.cartao-pizza h4,
+div#carousel-controles-sm div.cartao-pizza h4,
+div#carousel-controles div.cartao-pizza h4,
+div#carousel-controles-especial-sm div.cartao-pizza h4,
+div#carousel-controles-especial div.cartao-pizza h4{
+    font-family: "folks diferente";
+    color: rgb(83, 13, 8);
+    font-weight: bold;
+}
+div#carousel-controles-salgada div.cartao-pizza h3,
+div#carousel-controles-salgada-sm div.cartao-pizza h3,
+div#carousel-controles-sm div.cartao-pizza h3,
+div#carousel-controles div.cartao-pizza h3,
+div#carousel-controles-especial-sm div.cartao-pizza h3,
+div#carousel-controles-especial div.cartao-pizza h3{
+    font-family: "folks bold fino";
+    color: rgb(43, 3, 0);
+}
+div#carousel-controles-salgada div.cartao-pizza p,
+div#carousel-controles-salgada-sm div.cartao-pizza p,
+div#carousel-controles-sm div.cartao-pizza p,
+div#carousel-controles div.cartao-pizza p,
+div#carousel-controles-especial-sm div.cartao-pizza p,
+div#carousel-controles-especial div.cartao-pizza p{
+    color: rgb(43, 3, 0);
+}
+p#promocao-do-dia-obs{
+    font-family: "folks bold fino";
+}
+section#promocao{
+    color:rgb(43, 3, 0);
 }
