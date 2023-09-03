@@ -374,7 +374,7 @@ section#promocao{
     padding-top: 10px;
 }
 section#home, section#bomApetite, nav, section#promocao-titulo, section#QuemSomos-titulo{
-    background-image: url(../imagens/fundo-home2.jpg);
+    background-image: url(../imagens/pizza-escura.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -382,7 +382,7 @@ section#home, section#bomApetite, nav, section#promocao-titulo, section#QuemSomo
     height: 100%;
 }
 section#doce, section#salgada, section#especial{
-    background-image: url(../imagens/pizza-escura.jpg);
+    background-image: url(../imagens/fundo-home2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
