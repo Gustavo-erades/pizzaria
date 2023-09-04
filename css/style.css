@@ -46,7 +46,7 @@ section#quemSomos blockquote span p{
     margin-bottom: 15px;
 }
 section#home h1{
-    font-family: "folks titulo";
+    font-family: "folks diferente";
     font-size: 5em;
     color: rgb(255, 227, 160);
 }
@@ -487,7 +487,8 @@ a.link-do-carousel:hover{
     text-decoration: none;
 }
 section#bomApetite a.nav-link, #home-header a.nav-link{
-    color: rgb(251, 170, 0);
+    color: rgb(230, 11, 0);
+    text-shadow: 2px 2px 2px #000;
 }
 section#bomApetite a.nav-link:hover, #home-header a.nav-link:hover{
     color: rgb(255, 227,160);
@@ -521,8 +522,8 @@ section#bomApetite a.nav-link#link-redes:hover{
     font-size: 1em;
 }
 .botao-promocao{
-    background-color:rgb(255, 227, 160);
-    color: rgb(43, 3, 0);
+    background-color:rgb(229, 35, 22);;
+    color: rgb(255, 227, 160);
     outline: 2px solid rgb(229, 35, 22);
     font-family: "folks bold fino";
 }
@@ -540,7 +541,7 @@ a.botao-promocao:focus{
     font-weight: bold;
     color: rgb(217, 23, 13);
     font-size:xx-large;
-    font-family: "folks diferente";
+    font-family: "folks bold grosso";
 }
 div.dropdown-menu{
     background-color: rgb(255, 227, 160);
@@ -574,7 +575,8 @@ a.whats:hover{
     background-color: rgb(249, 210, 118);
 }
 ul#redes-sociais a.nav-link{
-    color: rgb(255, 179, 0);
+    color: rgb(230, 11, 0);
+    text-shadow: 2px 2px 2px #000;
 }
 ul#redes-sociais a:hover{
     color: rgb(249, 210, 118);
@@ -597,8 +599,7 @@ div#carousel-controles div.cartao-pizza h4 span,
 div#carousel-controles-especial-sm div.cartao-pizza h4 span,
 div#carousel-controles-especial div.cartao-pizza h4 span
 {
-    color:rgb(251, 170, 0);
-    font-family: "folks diferente";
+    display: none;
 }
 div#carousel-controles-salgada div.cartao-pizza h4,
 div#carousel-controles-salgada-sm div.cartao-pizza h4,
@@ -606,7 +607,7 @@ div#carousel-controles-sm div.cartao-pizza h4,
 div#carousel-controles div.cartao-pizza h4,
 div#carousel-controles-especial-sm div.cartao-pizza h4,
 div#carousel-controles-especial div.cartao-pizza h4{
-    font-family: "folks diferente";
+    font-family: "folks bold grosso";
     color: rgb(83, 13, 8);
     font-weight: bold;
 }
