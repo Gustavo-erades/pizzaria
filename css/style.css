@@ -121,6 +121,9 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
         font-size:x-large;
         display: block;
     }
+    img#congresso{
+        width: 400px;
+    }
 }
 @media(max-width:300px){
     body{
@@ -247,6 +250,9 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     }
     .preco-promocao{
         font-size:x-large;
+    }
+    img#congresso{
+        width: 500px;
     }
 }
 @media (min-width:420px){
