@@ -538,7 +538,6 @@ a.botao-promocao:focus{
     border: none;
 }
 .preco-promocao{
-    font-weight: bold;
     color: rgb(217, 23, 13);
     font-size:xx-large;
     font-family: "folks bold grosso";
@@ -603,7 +602,6 @@ div#carousel-controles-especial-sm div.cartao-pizza h4,
 div#carousel-controles-especial div.cartao-pizza h4{
     font-family: "folks bold grosso";
     color: rgb(83, 13, 8);
-    font-weight: bold;
 }
 div#carousel-controles-salgada div.cartao-pizza h3,
 div#carousel-controles-salgada-sm div.cartao-pizza h3,
