@@ -627,7 +627,8 @@ section#promocao{
     color:rgb(43, 3, 0);
 }
 section#home h4.titulo-pequeno{
-    color:rgb(255, 227, 160)
+    color:rgb(251, 170, 0);
+    font-family:"folks diferente";
 }
 div#card-endereco{
     border-radius: 8px;
