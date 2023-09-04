@@ -206,7 +206,17 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     }
     div.card div.card-body p#promocao-do-dia-sm{
         font-size: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
+    }
+}
+@media (min-width:340px) and (max-width:369.78px){
+    div.card div.card-body p#promocao-do-dia-sm{
+        font-size: 1.3em;
+        margin-bottom: 22px;
+    }
+    p#promocao-lista-sm{
+        font-size: 1.3em;
+        margin-bottom: 0;
     }
 }
 @media (min-width:400px){
@@ -254,6 +264,11 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     img#congresso{
         width: 500px;
     }
+    div.card div.card-body p#promocao-do-dia-sm{
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+    
 }
 @media (min-width:420px){
     #promocao-lista-sm li{
@@ -292,6 +307,13 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     section#contato{
         font-size:1.2em;
      }
+    div.card div.card-body p#promocao-do-dia-sm{
+        font-size: 1.3em;
+        margin-bottom: 16.1px;
+    }
+    #promocao-lista-sm li{
+        font-size: 1.3em;
+    }
 }
 @media (min-width:577px){
     section#home h1{
