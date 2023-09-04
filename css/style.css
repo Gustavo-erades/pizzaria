@@ -196,6 +196,14 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     }
     ul#promocao-lista-sm{
         display: block;
+        font-size: 1.2em;
+    }
+    p#promocao-lista-sm{
+        font-size: 1.3em;
+    }
+    div.card div.card-body p#promocao-do-dia-sm{
+        font-size: 1.2em;
+        margin-bottom: 20px;
     }
 }
 @media (min-width:400px){
