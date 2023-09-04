@@ -630,7 +630,7 @@ section#home h4.titulo-pequeno{
     color:rgb(255, 227, 160)
 }
 div#card-endereco{
-    border-radius: 12px;
+    border-radius: 8px;
     padding:10px 0 0 8px;
     background-color: rgb(255, 227, 160);
 }
