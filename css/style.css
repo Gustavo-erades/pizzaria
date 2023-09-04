@@ -488,7 +488,7 @@ a.link-do-carousel:hover{
 }
 section#bomApetite a.nav-link, #home-header a.nav-link{
     color: rgb(230, 11, 0);
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 section#bomApetite a.nav-link:hover, #home-header a.nav-link:hover{
     color: rgb(255, 227,160);
@@ -576,7 +576,7 @@ a.whats:hover{
 }
 ul#redes-sociais a.nav-link{
     color: rgb(230, 11, 0);
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 3px #000;
 }
 ul#redes-sociais a:hover{
     color: rgb(249, 210, 118);
