@@ -327,6 +327,9 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     }
 }
 @media (min-width:700px){
+    section#home h1{
+        font-size: 5.6em;
+    }
     section#home h4, section#home h2.lead{
         display: block;
     }
@@ -629,4 +632,7 @@ p#promocao-do-dia-obs{
 }
 section#promocao{
     color:rgb(43, 3, 0);
+}
+section#home h4.titulo-pequeno{
+    color:rgb(255, 227, 160)
 }
