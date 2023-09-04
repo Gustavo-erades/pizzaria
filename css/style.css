@@ -145,7 +145,7 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
         font-size: 0.8em;
      }
      section#quemSomos h3{
-        font-size: 0.9em;
+        font-size: 1em;
      }
      section#doce p.texto-doce-pequeno{
         display: block;
@@ -177,11 +177,11 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
      section#contato{
         font-size: 1em;
      }
-     section#quemSomos{
+     section#quemSomos p{
         font-size: 0.8em;
      }
      section#quemSomos h3{
-        font-size: 0.9em;
+        font-size: 1.3em;
      }
      section#doce p.texto-doce-pequeno{
         display: block;
