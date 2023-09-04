@@ -548,13 +548,13 @@ div.dropdown-menu{
 }
 section#contato{
     background:rgb(251,170,0);
-    background: rgb(255, 170, 0) url("../imagens/Apresentação.png"); 
+    background: rgb(255, 170, 0);
     color: rgb(43, 3, 0);
     font-family: "folks bold fino";
 }
 section.caixa-conteudo{
     background:rgb(251,170,0);
-    background: rgb(255, 170, 0) url("../imagens/Apresentação.png"); 
+    background: rgb(255, 170, 0);
 }
 section#QuemSomos-titulo h4{
     color: rgb(255, 227,160);
