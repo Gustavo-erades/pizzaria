@@ -68,6 +68,23 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
     color: rgb(251,170,0);
     text-shadow: 2px 2px 4px #000;
 }
+/* promoções semanais */
+div.promocoes-semana{
+    border-right: 5px dotted rgb(251,170,0);
+}
+div.promocoes-semana h4{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    color:rgb(190,13,0);
+}
+div.promocoes-semana h4.dia-semana{
+    font-family: "folks bold grosso";
+    font-size: 2em;
+    color:rgb(217, 23, 13);
+    background-color: rgb(255, 179, 0);
+    margin:5px 0;
+}
 @media (min-width:200px){
     section#home h4, .part2{
         display: none;
@@ -361,10 +378,6 @@ section#salgada p#subtitulo2, section#doce p#subtitulo2, section#especial p#subt
         display: inline;
         font-size:1.5em;
     }
-    p#promocao-do-dia-obs{
-        font-size: 1.3em;
-    }
-    
     #card-medium{
         display: none;
     }
@@ -446,11 +459,7 @@ section.caixa-conteudo{
     color: rgb(153, 24, 15);
 }
 #quemSomos,#promocao{
-    background: rgb(217,23,13);
-    background: linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14));
-    background: -o-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14)),
-                -moz-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14)),
-                -webkit-linear-gradient(50deg,rgb(153,24,15),rgb(245, 25, 14));
+    background: rgb(217,23,13) url(../imagens/pattern.png);
     padding: 5px;
     text-align: justify;
 }
@@ -499,27 +508,17 @@ section#bomApetite a.nav-link#link-redes{
 section#bomApetite a.nav-link#link-redes:hover{
     color: #ffffffcd;
 }
-#promocao-lista{
-    list-style: none;
-}
-#promocao-lista li{
-    font-family: "folks body";
-    font-size: 1.5em;
-}
 #promocao-do-dia{
-    font-family: "folks body";
+    font-family: "folks bold fino";
     font-size: 1.5em;
-}
-#promocao-lista-sm{
-    list-style: none;
-}
-#promocao-lista-sm li{
-    font-family: "folks body";
-    font-size: 1em;
+    color: rgb(249, 210, 118);
+    font-weight: 400;
 }
 #promocao-do-dia-sm{
-    font-family: "folks body";
+    font-family: "folks bold fino";
     font-size: 1em;
+    color: rgb(249, 210, 118);
+    font-weight: 400;
 }
 .botao-promocao{
     background-color:rgb(229, 35, 22);;
@@ -538,7 +537,7 @@ a.botao-promocao:focus{
     border: none;
 }
 .preco-promocao{
-    color: rgb(217, 23, 13);
+    color: rgb(249, 210, 118);
     font-size:xx-large;
     font-family: "folks bold grosso";
 }
@@ -547,13 +546,11 @@ div.dropdown-menu{
     font-family: "folks bold fino";
 }
 section#contato{
-    background:rgb(251,170,0);
     background: rgb(255, 170, 0);
     color: rgb(43, 3, 0);
     font-family: "folks bold fino";
 }
 section.caixa-conteudo{
-    background:rgb(251,170,0);
     background: rgb(255, 170, 0);
 }
 section#QuemSomos-titulo h4{
@@ -619,9 +616,6 @@ div#carousel-controles div.cartao-pizza p,
 div#carousel-controles-especial-sm div.cartao-pizza p,
 div#carousel-controles-especial div.cartao-pizza p{
     color: rgb(43, 3, 0);
-}
-p#promocao-do-dia-obs{
-    font-family: "folks bold fino";
 }
 section#promocao{
     color:rgb(43, 3, 0);
