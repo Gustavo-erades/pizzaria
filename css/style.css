@@ -128,12 +128,6 @@ div.promocoes-semana h4.dia-semana{
     section#QuemSomos-titulo{
         font-size: 2em;
     }
-    #promocao-do-dia-sm{
-        font-size: 1em;
-    }
-    ul#promocao-lista-sm{
-        display: none;
-    }
     span.preco-promocao{
         font-size:x-large;
         display: block;
@@ -221,16 +215,8 @@ div.promocoes-semana h4.dia-semana{
     p#promocao-lista-sm{
         font-size: 1.3em;
     }
-    div.card div.card-body p#promocao-do-dia-sm{
-        font-size: 1.2em;
-        margin-bottom: 18px;
-    }
 }
 @media (min-width:340px) and (max-width:369.78px){
-    div.card div.card-body p#promocao-do-dia-sm{
-        font-size: 1.3em;
-        margin-bottom: 22px;
-    }
     p#promocao-lista-sm{
         font-size: 1.3em;
         margin-bottom: 0;
@@ -266,9 +252,6 @@ div.promocoes-semana h4.dia-semana{
     #promocao-lista-sm li{
         font-size: 1em;
     }
-    #promocao-do-dia-sm{
-        font-size: 1em;
-    }
     #promocao-lista-sm{
         margin-bottom: 0px;
     }
@@ -281,17 +264,10 @@ div.promocoes-semana h4.dia-semana{
     img#congresso{
         width: 500px;
     }
-    div.card div.card-body p#promocao-do-dia-sm{
-        font-size: 1.1em;
-        margin-bottom: 0;
-    }
     
 }
 @media (min-width:420px){
     #promocao-lista-sm li{
-        font-size: 1em;
-    }
-    #promocao-do-dia-sm{
         font-size: 1em;
     }
     .preco-promocao{
@@ -324,10 +300,6 @@ div.promocoes-semana h4.dia-semana{
     section#contato{
         font-size:1.2em;
      }
-    div.card div.card-body p#promocao-do-dia-sm{
-        font-size: 1.3em;
-        margin-bottom: 16.1px;
-    }
     #promocao-lista-sm li{
         font-size: 1.3em;
     }
@@ -511,12 +483,6 @@ section#bomApetite a.nav-link#link-redes:hover{
 #promocao-do-dia{
     font-family: "folks bold fino";
     font-size: 1.5em;
-    color: rgb(249, 210, 118);
-    font-weight: 400;
-}
-#promocao-do-dia-sm{
-    font-family: "folks bold fino";
-    font-size: 1em;
     color: rgb(249, 210, 118);
     font-weight: 400;
 }
