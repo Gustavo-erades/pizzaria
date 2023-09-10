@@ -89,6 +89,9 @@ div.promocoes-semana h4.dia-semana{
     section#home h4, .part2{
         display: none;
     }
+    section#home h2.vemPraKing{
+        font-size: 1.1em;
+    }
     section#home{
         padding-bottom: 20px;
     }
@@ -136,7 +139,47 @@ div.promocoes-semana h4.dia-semana{
         width: 400px;
     }
 }
-@media (min-width:200px) and (max-width:759.98px){
+@media (min-width:200px) and (max-width:299.98px){
+    /* responsividade promoções */
+    div.promocoes-semana h4{
+       font-size: 1em;
+       font-family: "folks diferente";
+       padding: 5px 0;
+   }
+   div.promocoes-semana img{
+       width: 100px;
+   }
+   div.promocoes-semana h4.dia-semana{
+       font-size: 1.5em;
+   }
+   span.preco-promocao{
+       font-size: 1.3em;
+   }
+   span.divisor-quad{
+       color: rgb(251, 170, 0);
+   }
+}
+@media (min-width:300px) and (max-width:360px){
+    /* responsividade promoções */
+    div.promocoes-semana h4{
+       font-size: 1.3em;
+       font-family: "folks diferente";
+       padding: 5px 0;
+   }
+   div.promocoes-semana img{
+       width: 100px;
+   }
+   div.promocoes-semana h4.dia-semana{
+       font-size: 2em;
+   }
+   span.preco-promocao{
+       font-size: 1.5em;
+   }
+   span.divisor-quad{
+       color: rgb(251, 170, 0);
+   }
+}
+@media (min-width:361.98px) and (max-width:759.98px){
      /* responsividade promoções */
      div.promocoes-semana h4{
         font-size: 1.5em;
@@ -234,12 +277,6 @@ div.promocoes-semana h4.dia-semana{
     }
     p#promocao-lista-sm{
         font-size: 1.3em;
-    }
-}
-@media (min-width:340px) and (max-width:369.78px){
-    p#promocao-lista-sm{
-        font-size: 1.3em;
-        margin-bottom: 0;
     }
 }
 @media (min-width:400px){
