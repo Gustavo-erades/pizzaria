@@ -139,7 +139,7 @@ div.promocoes-semana h4.dia-semana{
 @media (min-width:200px) and (max-width:759.98px){
      /* responsividade promoções */
      div.promocoes-semana h4{
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-family: "folks diferente";
         padding: 5px 0;
     }
