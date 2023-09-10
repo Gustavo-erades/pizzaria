@@ -86,13 +86,16 @@ div.promocoes-semana h4.dia-semana{
     background-color: rgb(255, 179, 0);
     margin:5px 0;
 }
+@media(min-width:200px) and (max-width:280.98px){
+    section#home h2{
+        font-size: 1.1em;
+    }
+}
 @media (min-width:200px){
     section#home h4, .part2{
         display: none;
     }
-    section#home h2.vemPraKing{
-        font-size: 1.1em;
-    }
+    
     section#home{
         padding-bottom: 20px;
     }
