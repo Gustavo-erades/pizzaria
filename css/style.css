@@ -272,16 +272,6 @@ div.promocoes-semana h4.dia-semana{
         padding-top: 15px;
         padding-bottom:15px
      }
-    #promocao-lista-sm-menor{
-        display: none;
-    }
-    ul#promocao-lista-sm{
-        display: block;
-        font-size: 1.2em;
-    }
-    p#promocao-lista-sm{
-        font-size: 1.3em;
-    }
 }
 @media (min-width:400px){
     section#home h1{
@@ -310,15 +300,6 @@ div.promocoes-semana h4.dia-semana{
     section#doce h1{
         font-size: 5.2em;
     }
-    #promocao-lista-sm li{
-        font-size: 1em;
-    }
-    #promocao-lista-sm{
-        margin-bottom: 0px;
-    }
-    p#promocao-lista-sm{
-        margin-bottom: 8px;
-    }
     .preco-promocao{
         font-size:x-large;
     }
@@ -328,9 +309,6 @@ div.promocoes-semana h4.dia-semana{
     
 }
 @media (min-width:420px){
-    #promocao-lista-sm li{
-        font-size: 1em;
-    }
     .preco-promocao{
         font-size:xx-large;
     }
@@ -361,9 +339,6 @@ div.promocoes-semana h4.dia-semana{
     section#contato{
         font-size:1.2em;
      }
-    #promocao-lista-sm li{
-        font-size: 1.3em;
-    }
 }
 @media (min-width:577px){
     section#home h1{
