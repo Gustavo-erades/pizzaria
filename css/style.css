@@ -589,7 +589,10 @@ div.cartao-pizza{
     background-color: rgb(255, 227, 160);
     border-radius: 20px;
     text-align: center;
-    padding: 8px 0;
+    padding: 10px 8px;
+}
+div.cartao-pizza .pizza{
+    border-right: 5px dotted rgb(153, 24, 15)
 }
 i.seta{
     font-weight: bold;
