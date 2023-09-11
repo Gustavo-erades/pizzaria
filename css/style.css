@@ -424,6 +424,32 @@ div.promocoes-semana h4.dia-semana{
     }
 }
 /* cards pizzzas */
+@media (min-width:300.98px) and (max-width:369.98px){
+    #lombo br, #Amoda br, #vegetariana br{
+        display: none;
+    }
+    #Amoda p, #Amoda h4{
+        margin-bottom: 0;
+    }
+}
+@media (min-width:370px) and (max-width:389.98px){
+    #vegetariana br{
+        display: none;
+    }
+}
+@media(min-width:300.98px) and (max-width:399.98px){
+    #frango-catupiry br, #napolitana br, #marguerita br{
+        display: none;
+    }
+    #portuguesa p, #portuguesa h4{
+        margin-bottom: 0;
+    }
+}
+@media (min-width:400.98px) and (max-width:500.98px){
+    #frango-catupiry br, #napolitana br{
+        display: none;
+    }
+}
 @media (min-width:767.98px) and (max-width:920.98px){
     div#carousel-controles-salgada .cartao-pizza h3 {
         font-size: 1.5em
