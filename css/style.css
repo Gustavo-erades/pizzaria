@@ -422,7 +422,15 @@ div.promocoes-semana h4.dia-semana{
 }
 /* cards pizzzas */
 @media (min-width:767.98px) and (max-width:920.98px){
-    
+    div#carousel-controles-salgada .cartao-pizza h3 {
+        font-size: 1.5em
+    }
+    div#carousel-controles .cartao-pizza h3 {
+        font-size: 1.5em
+    }
+    div#carousel-controles-especial .cartao-pizza h3 {
+        font-size: 1.5em
+    }
 }
 @media (min-width:990.98px) and (max-width:1199.98px){
     div#carousel-controles-especial br{
