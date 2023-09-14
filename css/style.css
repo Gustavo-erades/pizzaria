@@ -424,15 +424,39 @@ div.promocoes-semana h4.dia-semana{
     }
 }
 /* cards pizzzas */
-@media (min-width:300.98px) and (max-width:369.98px){
-    #lombo br, #Amoda br, #vegetariana br{
+@media (min-width:259.98px) and (max-width:369.98px){
+    #lombo br, #Amoda br{
         display: none;
     }
     #Amoda p, #Amoda h4{
         margin-bottom: 0;
     }
 }
-@media (min-width:370px) and (max-width:389.98px){
+@media (min-width:259.98px) and (max-width:359.98px){
+    #franbacon p, #franbacon h4{
+        margin-bottom: 0;
+    }
+    #calabacon p, #calabacon h4{
+        margin-bottom: 0;
+    }
+    #quatro-queijos p, #quatro-queijos h4{
+        margin-bottom: 0;
+    }
+}
+@media (min-width:300.98px) and (max-width:349.98px){
+    #bacon br{
+        display: none;
+    }
+}
+@media (min-width:300.98px) and (max-width:369.98px){
+    #milho-verde br{
+        display: none;
+    }
+    #calabresa br{
+        display: none;
+    }
+}
+@media (min-width:300.98px) and (max-width:389.98px){
     #vegetariana br{
         display: none;
     }
@@ -447,8 +471,13 @@ div.promocoes-semana h4.dia-semana{
         margin-bottom: 24px;
     }
 }
+@media (min-width:300.98px) and (max-width:389.98px){
+    #marguerita br{
+        display: none;
+    }
+}
 @media(min-width:300.98px) and (max-width:399.98px){
-    #frango-catupiry br, #napolitana br, #marguerita br{
+    #frango-catupiry br, #napolitana br{
         display: none;
     }
     #portuguesa p, #portuguesa h4{
