@@ -506,6 +506,11 @@ div.promocoes-semana h4.dia-semana{
         font-size: 1.1em;
     }
 }
+@media (min-width:767.98px) and (max-width:1199.98px){
+    #vegetariana-lg p{
+        margin-bottom: 0;
+    }
+}
 @media (min-width:990.98px) and (max-width:1199.98px){
     div#carousel-controles-especial br{
         display: none;
@@ -530,6 +535,11 @@ div.promocoes-semana h4.dia-semana{
     }
     div.promocoes-semana h4.dia-semana{
         font-size: 1.5em;
+    }
+}
+@media (min-width:1200px){
+    #vegetariana-lg{
+        margin-bottom: 8px;
     }
 }
 section#promocao-titulo{
