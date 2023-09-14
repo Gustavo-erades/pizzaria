@@ -437,6 +437,16 @@ div.promocoes-semana h4.dia-semana{
         display: none;
     }
 }
+@media (min-width:200px) and (max-width:399.98px){
+    #vegetariana p{
+        margin-bottom: 0;
+    }
+}
+@media (min-width:400px) and (max-width:599.98px){
+    #vegetariana p{
+        margin-bottom: 24px;
+    }
+}
 @media(min-width:300.98px) and (max-width:399.98px){
     #frango-catupiry br, #napolitana br, #marguerita br{
         display: none;
