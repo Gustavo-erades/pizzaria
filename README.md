@@ -6,4 +6,5 @@
 ### -uso de imagens do banco de imagens gratuitas Unsplash  (para imagens do fundo);
 ### -colaboração com designer para cores, posicionamento dos elementos e desenho de pizzas no carousel.
 #
+## site :https://kingpizzaria.com/
 ## Link do site (pelo gitHub pages): https://gustavo-erades.github.io/pizzaria/
